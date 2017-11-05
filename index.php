@@ -61,8 +61,9 @@ mysqli_close($conn);
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container">
-  
+    <div
+     class="container">
+    <div class="col-md-7">
       <div class="responsive-calendar">
         <div class="controls">
             <a class="pull-left" data-go="prev"><div class="btn btn-primary">Prev</div></a>
@@ -88,6 +89,7 @@ mysqli_close($conn);
         <a ><div class="days" data-group="days">
           
         </div></a>
+        </div>
       </div>
 
       <!-- Responsive calendar - END -->
